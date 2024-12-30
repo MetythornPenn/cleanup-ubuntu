@@ -72,9 +72,10 @@ sudo find /var/log -type f -name "*.log" -mtime +7 -delete
 
 # 13. Clean VS Code Cache and Extensions
 echo "Cleaning VS Code cache and extensions..."
-rm -rf ~/.config/Code/Cache/*
-rm -rf ~/.vscode/extensions/*
-rm -rf ~/.config/Code/CachedData/*
+# rm -rf ~/.config/Code/Cache/*
+# rm -rf ~/.vscode/extensions/*
+# rm -rf ~/.config/Code/CachedData/*
+echo "Skipping cleanup VS Code for this run..."
 
 # 14. Clean Firefox and Brave Browser Cache
 echo "Cleaning Firefox and Brave browser cache..."
