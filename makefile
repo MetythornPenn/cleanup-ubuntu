@@ -1,9 +1,5 @@
 clean-linux:
-	chmod +x cleanup-linux.sh && ./cleanup.sh
+	chmod +x cleanup-linux.sh && ./cleanup-linux.sh
 
 clean-mac:
-	chmod +x cleanup-mac.sh && sudo ./cleanup.sh
-
-
-
-
+	chmod +x cleanup-mac.sh && sudo ./cleanup-mac.sh

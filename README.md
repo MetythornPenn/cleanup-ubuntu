@@ -13,13 +13,13 @@ make clean-mac
 **Create a Cron Job**
 ```bash 
 # open crontab
-contab -e
+sudo crontab -e
 
 # add a new cron job 
 0 1 * * 0 /path/to/cleanup.sh # Run script every Sunday at 1 AM
 
 # verify crontab
-crontab -l
+sudo crontab -l
 
 # restart cron
 sudo systemctl restart cron
